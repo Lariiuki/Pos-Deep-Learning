@@ -10,3 +10,9 @@ Código original (exemplo4.py) utilizava o dataset 'make_moons', implementava um
 ## Código modificado
 
 As modificações realizadas foi a mudança do dataset utilizado para 'make_circles', que gera pontos em círculos concêntricos, com ruído, para simular um problema de classificação binária. Na rede manual aumentamos a camada escondida de 2 para 4 neurônios e a função de ativação que utilizamos é a **tanh**. Na rede com keras definimos 2 camadas escondidas de 8 neurônios cada, com função de ativação **ReLU** e com camada de saída **Sigmoide**. O treinamento foi feito via gradiente descendente, ajustando os pesos para minimizar o erro quadrático. A acurácia da rede foi avaliada antes e depois do treinamento, mostrando a evolução do aprendizado. O modelo final apresentou uma acurácia significativamente melhor, mostrando que as modificações na arquitetura e nas funções de ativação tiveram impacto positivo.
+
+## Conclusão
+
+A perda no inicio era muito alta no valor de '0 [14.72242375]', à medida que o treinamento avança a perda começa a diminuir progressivamente, chegando a '0.11814957' depois de 4000 iterações. Isso mostra que o modelo esta aprendendo, porque a função de perda está decrescendo.
+
+O valor da acurácia final é 100%, indicando que o modelo conseguiu classificar **todas as amostras corretamente**. E a perda final é muito baixa **('0.0091' ou '0.0078'),** confirmando que a previsão do modelo está muito próxima os valores reais.
