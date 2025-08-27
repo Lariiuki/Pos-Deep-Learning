@@ -1,5 +1,7 @@
 ## Explicação do Projeto 🔎
 
+Grupo: Larissa Akemi Iuki, Marcos Vinicuis Suguino, Ana Vitória da Silva Santos, Luan Fernandes de França, Vinicius da Silva Ferreira Lima
+
 **Objetivo:** O trabalho consiste em projetar e implementar uma rede neural artificial a partir do exemplo exemplo4.py.
 Foram feitas modificações na arquitetura, nas funções de ativação e na base de dados para observar como esses fatores influenciam o desempenho do modelo. No notebook, foi realizado um experimento de classificação utilizando redes neurais para separar dados não linearmente separáveis, gerados pela função make_circles do scikit-learn. 
 
