@@ -15,6 +15,6 @@ As modificações realizadas foi a mudança do dataset utilizado para 'make_circ
 
 ## Conclusão
 
-No início do treinamento, a perda era muito alta, com valor de `0 [14.72242375]`. À medida que o modelo é treinado, a perda diminui progressivamente, atingindo `0.11814957` após 4.000 iterações. Esse comportamento indica que o modelo está aprendendo, pois a função de perda apresenta uma tendência clara de decrescimento.
+No início do treinamento, a perda era muito alta, com valor de `0 [14.72242375]`. À medida que o modelo é treinado, a perda diminui progressivamente, atingindo `0.26997605` após 4.000 iterações. Esse comportamento indica que o modelo está aprendendo, pois a função de perda apresenta uma tendência clara de decrescimento.
 
-A acurácia final alcançou 100%, o que significa que o modelo classificou **todas as amostras corretamente**. Além disso, a perda final é extremamente baixa (`0.0091` ou `0.0078`), confirmando que as previsões do modelo estão muito próximas dos valores reais.
+A acurácia final alcançou 100%, o que significa que o modelo classificou **todas as amostras corretamente**. Além disso, a perda final é extremamente baixa (`0.0147`), confirmando que as previsões do modelo estão muito próximas dos valores reais.
