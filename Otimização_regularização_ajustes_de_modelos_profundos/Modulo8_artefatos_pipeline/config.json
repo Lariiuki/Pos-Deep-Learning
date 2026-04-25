@@ -1,0 +1,12 @@
+{
+  "selected_config_name": "alta_capacidade",
+  "config": {
+    "hidden_dim": 128,
+    "num_layers": 3,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "use_cosine": true
+  }
+}
